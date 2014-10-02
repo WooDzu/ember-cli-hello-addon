@@ -1,0 +1,6 @@
+{
+  "name": "dummy",
+  "dependencies": {
+    "ember": "1.7.0"
+  }
+}

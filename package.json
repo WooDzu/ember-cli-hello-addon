@@ -1,0 +1,28 @@
+{
+  "name": "hello-addon",
+  "version": "0.0.1",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ember server",
+    "build": "ember build",
+    "test": "ember test"
+  },
+  "repository": "https://github.com/WooDzu/ember-cli-hello-addon",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "ember-addon": {
+    "configPath": "tests/dummy/config"
+  },
+  "author": "WooDzu",
+  "license": "MIT",
+  "devDependencies": {
+    "ember-cli": "0.0.44"
+  }
+}
